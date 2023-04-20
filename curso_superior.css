@@ -1,0 +1,55 @@
+body {
+    background-color: aquamarine;
+}
+
+.sidebar {
+    position: fixed;
+    top: 100px;
+    left: 10px;
+    width: 20.5%;
+    height: 85%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #a25692;
+}
+
+.centerbar {
+    position: fixed;
+    background-color: #a25692;
+    left: 340px;
+    top: 60px;
+    width: 78%;
+    height: 90.5%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #a25692;
+
+}
+
+select#matematica {
+    width: 65%;
+    height: 15%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 130px;
+    margin-top: 30px;
+}
+
+select#turismo {
+    width: 65%;
+    height: 15%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 130px;
+}
+
+select#redes {
+    width: 65%;
+    height: 15%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 130px;
+}
