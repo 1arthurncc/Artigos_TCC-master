@@ -1,6 +1,55 @@
-body {
-    background-color: aquamarine;
-}
+body{
+    width: 100%;
+    padding: 300px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to left, #f72585,#560bad,#3f37c9, #4cc9f0);
+    background-size: 500% 100%;
+    animation: degrade 10s infinite alternate;
+   }
+  
+  @keyframes degrade{
+    0%{
+      background-position-x: 0%;
+    }
+    100%{
+      background-position-x: 100%;
+    }
+  }
+
+  button {
+    display: flex;
+    height: 3em;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeee4b;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    border: none;
+    background: #fff;
+   }
+
+   
+   button > svg {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    transition: all 0.4s ease-in;
+   }
+   
+   button:hover > svg {
+    font-size: 1.2em;
+    transform: translateX(-5px);
+   }
+   
+   button:hover {
+    box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+    transform: translateY(-2px);
+   }
 
 .sidebar {
     position: fixed;
@@ -10,21 +59,19 @@ body {
     height: 85%;
     padding: 20px;
     border-radius: 10px;
-    background-color: #a25692;
+    background-color: #e5e5e5;
 }
 
 .centerbar {
     position: fixed;
-    background-color: #a25692;
-    left: 340px;
+    background-color: #e5e5e5;
+    left: 335px;
     top: 60px;
     width: 78%;
     height: 90.5%;
     padding: 20px;
     border-radius: 10px;
-    background-color: #a25692;
-
-}
+}   
 
 select#matematica {
     width: 65%;
@@ -34,7 +81,8 @@ select#matematica {
     margin: 10px;
     margin-bottom: 130px;
     margin-top: 30px;
-}
+    background: #ffb20d;
+  }
 
 select#turismo {
     width: 65%;
@@ -43,7 +91,8 @@ select#turismo {
     border-radius: 10px;
     margin: 10px;
     margin-bottom: 130px;
-}
+    background: #ffb20d;
+  }
 
 select#redes {
     width: 65%;
@@ -52,4 +101,5 @@ select#redes {
     border-radius: 10px;
     margin: 10px;
     margin-bottom: 130px;
-}
+    background: #ffb20d;
+  }
