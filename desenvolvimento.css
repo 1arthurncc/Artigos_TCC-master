@@ -38,24 +38,3 @@ body{
     border-radius: 10px;
     background-color: #e5e5e5;
 }
-
-select#informatica {
-    width: 65%;
-    height: 15%;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 10px;
-    margin-bottom: 130px;
-    margin-top: 30px;
-    background: #ffb20d;
-}
-
-select#hospedagem {
-    width: 65%;
-    height: 15%;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 10px;
-    margin-bottom: 130px;
-    background: #ffb20d;
-}

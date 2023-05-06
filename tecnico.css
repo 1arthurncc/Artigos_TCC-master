@@ -1,61 +1,210 @@
-body{
-    width: 100%;
-    padding: 300px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: linear-gradient(to left, #f72585,#560bad,#3f37c9, #4cc9f0);
-    background-size: 500% 100%;
-    animation: degrade 10s infinite alternate;
-   }
-  
-  @keyframes degrade{
-    0%{
-      background-position-x: 0%;
-    }
-    100%{
-      background-position-x: 100%;
-    }
+body {
+  width: 100%;
+  padding: 300px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to left, #f72585, #560bad, #3f37c9, #4cc9f0);
+  background-size: 500% 100%;
+  /*animation: degrade 10s infinite alternate; */
+}
+
+@keyframes degrade {
+  0% {
+    background-position-x: 0%;
   }
-  
+
+  100% {
+    background-position-x: 100%;
+  }
+}
+
 .sidebar {
-    position: fixed;
-    top: 100px;
-    left: 10px;
-    width: 20.5%;
-    height: 85%;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: #e5e5e5;}
+  position: fixed;
+  top: 100px;
+  left: 10px;
+  width: 20.5%;
+  height: 85%;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #e5e5e5;
+}
 
 .centerbar {
-    position: fixed;
-    left: 335px;
-    top: 60px;
-    width: 78%;
-    height: 90.5%;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: #e5e5e5;
+  position: fixed;
+  left: 335px;
+  top: 60px;
+  width: 78%;
+  height: 90.5%;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #e5e5e5;
 }
 
 select#informatica {
-    width: 65%;
-    height: 15%;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 10px;
-    margin-bottom: 130px;
-    margin-top: 30px;
-    background: #ffb20d;
+  width: 65%;
+  height: 15%;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  margin-bottom: 130px;
+  margin-top: 30px;
+  background: #ffb20d;
 }
 
 select#hospedagem {
-    width: 65%;
-    height: 15%;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 10px;
-    margin-bottom: 130px;
-    background: #ffb20d;
+  width: 65%;
+  height: 15%;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  margin-bottom: 130px;
+  background: #ffb20d;
 }
+
+div.botaoleft {
+  position: fixed;
+  top: 20px;
+  left: 5px;
+}
+
+button {
+  align-items: center;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-decoration: none;
+  text-transform: uppercase;
+  outline: 0;
+  border: 0;
+  padding: 1rem;
+}
+
+button:before {
+  background-color: #fff;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  margin-right: 10px;
+  transition: all .42s cubic-bezier(.25,.8,.25,1);
+  width: 0;
+}
+
+button:hover:before {
+  width: 3rem;
+}
+
+.sidebar {
+  position: fixed;
+  top: 100px;
+  left: 10px;
+  width: 20.5%;
+  height: 85%;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #e5e5e5;
+}
+
+.centerbar {
+  position: fixed;
+  background-color: #e5e5e5;
+  left: 335px;
+  top: 60px;
+  width: 78%;
+  height: 90.5%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+select#matematica {
+  width: 65%;
+  height: 15%;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  margin-bottom: 130px;
+  margin-top: 30px;
+  background: #ffb20d;
+}
+
+select#turismo {
+  width: 65%;
+  height: 15%;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  margin-bottom: 130px;
+  background: #ffb20d;
+}
+
+select#redes {
+  width: 65%;
+  height: 15%;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  margin-bottom: 130px;
+  background: #ffb20d;
+}
+
+
+
+button {
+  align-items: center;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-decoration: none;
+  text-transform: uppercase;
+  outline: 0;
+  border: 0;
+  padding: 1rem;
+}
+
+button:before {
+  background-color: #fff;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  margin-right: 10px;
+  transition: all .42s cubic-bezier(.25,.8,.25,1);
+  width: 0;
+}
+
+button:hover:before {
+  width: 3rem;
+}
+
+.feed-form {
+  margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 10%;
+  }
+
+.feed-form input {
+  width: 65%;
+  height: 15%;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  margin-bottom: 50px;
+  margin-top: 90px;
+  background: #ffb20d;
+  }
+
+  .button_submit:hover, .feed-form input:hover {
+    transform: scale(1.009);
+    box-shadow: 0px 0px 3px 0px #378de2;
+  }
