@@ -51,7 +51,7 @@ body{
   justify-content: center;
   background-image: linear-gradient(to left, #f72585,#560bad,#3f37c9, #4cc9f0);
   background-size: 500% 100%;
-  /*animation: degrade 30s infinite alternate;*/
+  /*animation: degrade 10s infinite alternate;*/
  }
 
 @keyframes degrade{
