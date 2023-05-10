@@ -3,7 +3,7 @@
     margin-top: 40px;
     left: 35%;
     height: 450px;
-    background-color: #e5e5e5;
+    background-color: #c9e4ca;
     padding: 50px;
     border-radius: 20px;
 }
@@ -19,12 +19,12 @@
 .feed-form input {
     height: 60px;
     border-radius: 5px;
-    background: #ffb20d;
+    color: white;
+    background: #3b6064;
     margin-bottom: 15px;
     border: none;
     font-weight: 300;
     font-size: 14px;
-    color: #000000;
   }
   
 .button_submit:hover, .feed-form input:hover {
@@ -49,9 +49,9 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(to left, #f72585,#560bad,#3f37c9, #4cc9f0);
+  background-image: linear-gradient(to left, #364958,#3b6064, #55828b, #87bba2);
   background-size: 500% 100%;
-  /*animation: degrade 10s infinite alternate;*/
+  animation: degrade 15s infinite alternate;
  }
 
 @keyframes degrade{

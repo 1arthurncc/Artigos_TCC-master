@@ -4,9 +4,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(to left, #f72585, #560bad, #3f37c9, #4cc9f0);
+  background-image: linear-gradient(to left, #364958,#3b6064, #55828b, #87bba2);
   background-size: 500% 100%;
-  /*animation: degrade 10s infinite alternate; */
+  animation: degrade 15s infinite alternate;
 }
 
 @keyframes degrade {
@@ -19,28 +19,6 @@ body {
   }
 }
 
-.sidebar {
-  position: fixed;
-  top: 100px;
-  left: 10px;
-  width: 20.5%;
-  height: 85%;
-  padding: 20px;
-  border-radius: 10px;
-  background-color: #e5e5e5;
-}
-
-.centerbar {
-  position: fixed;
-  left: 335px;
-  top: 60px;
-  width: 78%;
-  height: 90.5%;
-  padding: 20px;
-  border-radius: 10px;
-  background-color: #e5e5e5;
-}
-
 select#informatica {
   width: 65%;
   height: 15%;
@@ -49,17 +27,19 @@ select#informatica {
   margin: 10px;
   margin-bottom: 130px;
   margin-top: 30px;
-  background: #ffb20d;
+  color: white;
+  background: #3b6064;
 }
 
 select#hospedagem {
-  width: 65%;
+  width: 60%;
   height: 15%;
   padding: 20px;
   border-radius: 10px;
   margin: 10px;
+  color: white;
   margin-bottom: 130px;
-  background: #ffb20d;
+  background: #3b6064;
 }
 
 div.botaoleft {
@@ -107,12 +87,12 @@ button:hover:before {
   height: 85%;
   padding: 20px;
   border-radius: 10px;
-  background-color: #e5e5e5;
+  background-color: #c9e4ca;
 }
 
 .centerbar {
   position: fixed;
-  background-color: #e5e5e5;
+  background-color: #c9e4ca;
   left: 335px;
   top: 60px;
   width: 78%;
@@ -129,7 +109,8 @@ select#matematica {
   margin: 10px;
   margin-bottom: 130px;
   margin-top: 30px;
-  background: #ffb20d;
+  color: white;
+  background: #3b6064;
 }
 
 select#turismo {
@@ -139,7 +120,8 @@ select#turismo {
   border-radius: 10px;
   margin: 10px;
   margin-bottom: 130px;
-  background: #ffb20d;
+  color: white;
+  background: #3b6064;
 }
 
 select#redes {
@@ -149,7 +131,8 @@ select#redes {
   border-radius: 10px;
   margin: 10px;
   margin-bottom: 130px;
-  background: #ffb20d;
+  color: white;
+  background: #3b6064;
 }
 
 
@@ -201,8 +184,9 @@ button:hover:before {
   margin: 10px;
   margin-bottom: 50px;
   margin-top: 90px;
-  background: #ffb20d;
-  }
+  color: white;
+  background: #3b6064; 
+ }
 
   .button_submit:hover, .feed-form input:hover {
     transform: scale(1.009);

@@ -3,7 +3,7 @@
     margin-top: 40px;
     left: 35%;
     height: 550px;
-    background-color: #e5e5e5;
+    background-color: #c9e4ca;
     padding: 80px;
     border-radius: 20px;
 }
@@ -16,26 +16,47 @@
     
   }
 
-  .form-select{
-    margin-right: 4 0px;
-    text-align: center;
+  .sel {
+    display: block;
+    width: 350px;
+    height: 45px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: white;
+    background-color: #3b6064;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+  .form-select:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+
+  ::placeholder{
+    color: white;
   }
 
 .feed-form input {
     height: 40px;
     border-radius: 5px;
-    background: #ecca81;
+    color: white;
+    background: #3b6064;
     margin-bottom: 5px;
     border: none;
     font-weight: 0px;
     font-size: 14px;
-    color: #000000;
     text-align: center;
   }
   
 .button_submit:hover, .feed-form input:hover {
     transform: scale(1.009);
-    box-shadow: 0px 0px 3px 0px #378de2;
+    box-shadow: 0px 0px 3px 0px #000000;
   }
   
 .titulo{
@@ -55,9 +76,9 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(to left, #f72585,#560bad,#3f37c9, #4cc9f0);
+  background-image: linear-gradient(to left, #364958,#3b6064, #55828b, #87bba2);
   background-size: 500% 100%;
-  /* animation: degrade 10s infinite alternate; */
+  animation: degrade 15s infinite alternate;
  }
 
 @keyframes degrade{
