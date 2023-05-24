@@ -4,9 +4,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(to left, #364958,#3b6064, #55828b, #87bba2);
-  background-size: 500% 100%;
-  animation: degrade 15s infinite alternate;
+  /* background-image: linear-gradient(to left, #364958,#3b6064, #55828b, #87bba2);
+    background-size: 500% 100%;
+    animation: degrade 15s infinite alternate;*/
 }
 
 @keyframes degrade {
