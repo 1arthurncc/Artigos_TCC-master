@@ -85,7 +85,7 @@ body{
   position: fixed;
   margin-top: 40px;
   left: 35%;
-  height: 550px;
+  height: 400px;
   background-color: #c9e4ca;
   padding: 80px;
   border-radius: 20px;
@@ -96,7 +96,6 @@ body{
   display: flex;
   flex-direction: column;
   width: 350px;
-  
 }
 
  .inpu input {
@@ -124,16 +123,17 @@ body{
 
 .wave-group {
   position: relative;
+  text-align: center;
 }
 
 .wave-group .input {
   font-size: 16px;
   padding: 10px 10px 10px 5px;
-  display: block;
   width: 200px;
   border: none;
   border-bottom: 1px solid #515151;
   background: transparent;
+
 }
 
 .wave-group .input:focus {
@@ -142,13 +142,12 @@ body{
 
 .wave-group .label {
   color: #999;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: normal;
   position: absolute;
   pointer-events: none;
   left: 5px;
-  top: 10px;
-  display: flex;
+  top: 15px;
 }
 
 .wave-group .label-char {
@@ -173,7 +172,7 @@ body{
   content: '';
   height: 2px;
   width: 0;
-  bottom: 1px;
+  bottom: 0.4px;
   position: absolute;
   background: #5264AE;
   transition: 0.2s ease all;
@@ -182,16 +181,16 @@ body{
 }
 
 .wave-group .bar:before {
-  left: 50%;
+  left: 87%;
 }
 
 .wave-group .bar:after {
-  right: 50%;
+  right: 13%;
 }
 
 .wave-group .input:focus ~ .bar:before,
 .wave-group .input:focus ~ .bar:after {
-  width: 50%;
+  width: 52%;
 }
 
 
