@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
+
 .section_form{
     position: fixed;
     margin-top: 40px;
@@ -61,8 +63,8 @@
   
 .titulo{
     text-align: center;
-    margin-top: 10px;    
     font-family: source code pro;
+    font-size: 30px;
   }
 
   *{
@@ -79,7 +81,7 @@ body{
   justify-content: center;
   /* background-image: linear-gradient(to left, #364958,#3b6064, #55828b, #87bba2);
     background-size: 500% 100%;
-    animation: degrade 15s infinite alternate;*/
+    animation: degrade 15s infinite alternate;*/ 
  }
 
  .quadrado{
@@ -103,7 +105,7 @@ body{
   height: 40px;
   border-radius: 5px;
   color: white;
-  background: blue;
+  background: grey;
   margin-bottom: 5px;
   border: none;
   font-weight: 0px;
@@ -173,7 +175,7 @@ body{
   content: '';
   height: 2px;
   width: 0;
-  bottom: 0.4px;
+  bottom: 0px;
   position: absolute;
   background: #5264AE;
   transition: 0.2s ease all;
