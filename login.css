@@ -61,7 +61,8 @@
   
 .titulo{
     text-align: center;
-    
+    margin-top: 10px;    
+    font-family: source code pro;
   }
 
   *{
@@ -85,9 +86,9 @@ body{
   position: fixed;
   margin-top: 40px;
   left: 35%;
-  height: 400px;
+  height: 480px;
   background-color: #c9e4ca;
-  padding: 80px;
+  padding: 90px;
   border-radius: 20px;
 }
 
@@ -191,6 +192,12 @@ body{
 .wave-group .input:focus ~ .bar:before,
 .wave-group .input:focus ~ .bar:after {
   width: 52%;
+}
+
+.links {
+  text-align: center;
+  margin-bottom: 90px;
+  text-decoration: none;
 }
 
 
