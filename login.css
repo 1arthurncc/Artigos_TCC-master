@@ -25,7 +25,7 @@
     font-size: 1rem;
     line-height: 1.5;
     color: white;
-    background-color: #3b6064;
+    background-color: gray;
     background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
@@ -48,7 +48,7 @@
     height: 40px;
     border-radius: 5px;
     color: white;
-    background: #3b6064;
+    background: gray;
     margin-bottom: 5px;
     border: none;
     font-weight: 0px;
@@ -81,8 +81,8 @@ body{
   justify-content: center;
   /* background-image: linear-gradient(to left, #364958,#3b6064, #55828b, #87bba2);
     background-size: 500% 100%;
-    animation: degrade 15s infinite alternate;*/ 
- }
+    animation: degrade 15s infinite alternate; */
+ } 
 
  .quadrado{
   position: fixed;
@@ -113,6 +113,10 @@ body{
   text-align: center;
 }
 
+.inpu:hover {
+  transform: scale(1.009);
+    box-shadow: 0px 0px 3px 0px #000000;
+} 
 
 
 @keyframes degrade{
@@ -202,4 +206,12 @@ body{
   text-decoration: none;
 }
 
-
+body {
+  background-color: #403060;
+  background-image: linear-gradient(to left, #364958,#3b6064, #55828b, #87bba2);
+  background-size: 500% 100%;
+  animation: degrade 15s infinite alternate;  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}

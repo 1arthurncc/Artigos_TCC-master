@@ -62,3 +62,13 @@ body{
     background-position-x: 100%;
   }
 }
+
+body {
+  background-color: #403060;
+  background-image: linear-gradient(to left, #364958,#3b6064, #55828b, #87bba2);
+  background-size: 500% 100%;
+  animation: degrade 15s infinite alternate;  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
