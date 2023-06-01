@@ -38,6 +38,7 @@
     border-color: #80bdff;
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    font-family: source code pro;
   }
 
   ::placeholder{
@@ -54,6 +55,7 @@
     font-weight: 0px;
     font-size: 14px;
     text-align: center;
+    font-family: source code pro;
   }
   
 .button_submit:hover, .feed-form input:hover {
@@ -111,11 +113,10 @@ body{
   font-weight: 0px;
   font-size: 14px;
   text-align: center;
+  font-family: source code pro;
 }
 
 .inpu:hover {
-  transform: scale(1.009);
-    box-shadow: 0px 0px 3px 0px #000000;
 } 
 
 
@@ -148,7 +149,7 @@ body{
 }
 
 .wave-group .label {
-  color: #999;
+  color: black;
   font-size: 14px;
   font-weight: normal;
   position: absolute;
@@ -173,6 +174,8 @@ body{
   position: relative;
   display: block;
   width: 200px;
+  font-family: source code pro;
+
 }
 
 .wave-group .bar:before,.wave-group .bar:after {
@@ -200,10 +203,13 @@ body{
   width: 52%;
 }
 
+a  {
+  font-family: source code pro;
+
+}
+
 .links {
   text-align: center;
-  margin-bottom: 90px;
-  text-decoration: none;
 }
 
 body {
